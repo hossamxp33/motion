@@ -1,0 +1,49 @@
+/*
+    Primary Sass File where Every File included in
+*/
+
+/*
+        Include Reset File From Bases Folder
+*/
+
+@import 'bases/reset';
+/*
+        Include variables File From helpers Folder
+*/
+
+@import 'helpers/variables';
+/*
+        Include Header File From Layouts Folder
+*/
+
+@import 'layouts/header';
+/*
+        Include sideMenu File From Layouts Folder
+*/
+
+@import 'layouts/sideMenu';
+/*
+        Include Report File From Layouts Folder
+*/
+
+@import 'layouts/report';
+
+* {
+    //outline: 1px solid red
+}
+
+@font-face {
+    font-family: 'NeoSans';
+    src: url('../fonts/NeoSans-regular.woff') format('woff'); /* Modern Browsers */
+}
+
+body {
+    font-family: 'NeoSans';
+    background:#fafcfd;
+    overflow-X: hidden !important;
+}
+/*
+        Include variables File From helpers Folder
+*/
+
+@import 'helpers/mediaQuery';

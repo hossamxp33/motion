@@ -1,0 +1,21 @@
+/* Start Report */
+main{
+    margin-top: 100px;
+}
+.circle {
+    margin: 28px 0;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+	vertical-align: top;
+	strong {
+		position: absolute;
+		top: 77px;
+		left: 55px;
+		width: 100%;
+		text-align: center;
+		line-height: 45px;
+		font-size: 36px;
+	}
+}
+/* End Report */

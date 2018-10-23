@@ -1,0 +1,22 @@
+/* Start Header */
+.header{
+    background: #007ec5;
+    box-shadow: 1px 1px 10px #ddd;
+    margin-right: -15px;
+    padding: 10px;
+    position: fixed;
+    width: 90%;
+    z-index: 999;
+    .btn{
+        border-color: transparent !important;
+        i{
+            color:#959595
+        }
+
+    }
+    .dropdown-menu{
+        right: -120px;
+    }
+}
+
+/* End Header */
